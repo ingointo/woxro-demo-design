@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+    min-height: 100%;
+    max-width: 1180px;
+    /* max-width: 100vw; */
+    /* overflow-x: hidden; */
+    position: relative;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.hiring {
+    margin-top: 1rem;
+}
+
+.header-section {
+    height: 40px;
+    padding-inline: 10px;
+    overflow: hidden;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.header-section2 {
+    background-color: white;
+    width: auto;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    display: flex;
+}
+
+.header-section2 i {
+    font-size: 1.5rem;
+}
+
+.right {
+    float: right;
+}
+
+.navbar {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid white;
+    justify-content: space-evenly;
+    height: 2.8rem;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 0.6s ease;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-head {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 1.3;
+}
+
+.banner-para {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3.5rem;
+    margin-inline: 5rem;
+    letter-spacing: 0.06rem;
+}
+
+
+.header-banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header-section2 {
+    margin-top: 12px;
+}
+
+div.navbar {
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    background-color: black;
+    width: 100%;
+    max-width: 1180px;
+
+
+}
+
+@media screen and (max-width: 880px) {
+    .header-section {
+        display: none;
+    }
+
+    .header-section2 {
+        margin: 0;
+    }
+}
+
+.sticky-nav {
+    position: sticky;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        height: 24rem;
+    }
+
+    .banner-head {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .banner-para {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1880px) {
+    .menu-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu-button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .banner-para {
+        margin-inline: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner-head {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .banner-para {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .banner-head {
+        margin-top: -1rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .banner-head {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .banner-para {
+        font-size: 0.9rem;
+        margin-inline: 1rem;
+
+    }
+}
